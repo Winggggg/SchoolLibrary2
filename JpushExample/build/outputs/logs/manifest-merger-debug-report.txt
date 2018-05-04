@@ -1,0 +1,343 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:2:1-189:12
+	package
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:3:5-36
+	android:versionName
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:5:5-32
+		INJECTED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml
+		INJECTED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:4:5-30
+		INJECTED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml
+		INJECTED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:7:5-73
+	android:targetSdkVersion
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:7:41-70
+	android:minSdkVersion
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:7:15-40
+permission#com.example.jpushdemo.permission.JPUSH_MESSAGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:10:5-13:47
+	android:protectionLevel
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:11:9-70
+uses-permission#com.example.jpushdemo.permission.JPUSH_MESSAGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:18:5-86
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:18:22-83
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:26:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:27:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:28:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:29:5-76
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:29:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:34:5-78
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:34:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:36:5-76
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:36:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:37:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:38:5-89
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:38:22-86
+application
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:39:5-185:19
+	android:label
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:42:9-41
+	android:allowBackup
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:41:9-36
+	android:icon
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:40:9-45
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:43:9-64
+activity#com.example.jpushdemo.MainActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:46:9-53:20
+	android:label
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:47:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:49:13-52:29
+action#android.intent.action.MAIN
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:51:27-74
+activity#com.example.jpushdemo.PushSetActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:55:9-116
+	android:label
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:55:72-104
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:55:19-71
+activity#com.example.jpushdemo.SettingActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:57:9-116
+	android:label
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:57:72-104
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:57:19-71
+activity#com.example.jpushdemo.TestActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:59:9-64:20
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:59:69-93
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:59:19-68
+intent-filter#jpush.testAction+jpush.testCategory
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:60:13-63:29
+action#jpush.testAction
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:61:17-59
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:61:25-56
+category#jpush.testCategory
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:62:17-63
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:62:27-60
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:67:9-71:20
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:68:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:74:9-85:20
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:78:13-37
+	android:configChanges
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:76:13-63
+	android:theme
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:77:13-60
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:75:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.example.jpushdemo
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:79:13-84:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:80:17-75
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:80:25-72
+category#android.intent.category.DEFAULT
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:81:17-76
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:81:27-73
+category#com.example.jpushdemo
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:82:17-66
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:82:27-63
+service#cn.jpush.android.service.PushService
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:89:9-99:19
+	android:process
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:91:13-36
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:90:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:93:13-98:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:94:17-75
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:94:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:95:17-73
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:95:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:96:17-78
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:96:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:97:17-76
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:97:25-73
+provider#cn.jpush.android.service.DataProvider
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:102:9-106:15
+	android:authorities
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:103:13-69
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:105:13-37
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:104:13-65
+service#cn.jpush.android.service.DaemonService
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:110:9-120:19
+	android:enabled
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:112:13-35
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:113:13-36
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:111:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.example.jpushdemo
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:114:13-118:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:115:17-80
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:115:25-77
+provider#cn.jpush.android.service.DownloadProvider
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:124:9-129:11
+	android:authorities
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:125:13-73
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:128:9-32
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:127:9-65
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:131:9-151:20
+	android:enabled
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:134:13-37
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:132:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.example.jpushdemo
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:135:13-139:29
+	android:priority
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:135:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:136:17-94
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:136:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:140:13-143:29
+action#android.intent.action.USER_PRESENT
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:141:17-77
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:141:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:142:17-79
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:142:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:145:13-150:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:146:17-78
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:146:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:147:17-80
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:147:25-77
+data
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:149:17-50
+	android:scheme
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:149:23-47
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:154:9-99
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:154:73-97
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:154:19-72
+receiver#com.example.jpushdemo.MyReceiver
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:157:9-170:20
+	android:enabled
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:160:13-35
+	android:exported
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:159:13-37
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:158:13-60
+intent-filter#cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.example.jpushdemo
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:161:13-169:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:162:17-79
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:162:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:163:17-83
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:163:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:164:17-88
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:164:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:165:17-86
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:165:25-83
+action#cn.jpush.android.intent.CONNECTION
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:166:17-77
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:166:25-74
+receiver#com.example.jpushdemo.MyJPushMessageReceiver
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:173:9-179:20
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:173:19-78
+intent-filter#cn.jpush.android.intent.RECEIVE_MESSAGE+com.example.jpushdemo
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:174:13-178:29
+action#cn.jpush.android.intent.RECEIVE_MESSAGE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:175:17-82
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:175:25-79
+meta-data#JPUSH_CHANNEL
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:181:9-84
+	android:value
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:181:49-82
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:181:20-48
+meta-data#JPUSH_APPKEY
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:182:9-91
+	android:value
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:182:48-88
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:182:20-47
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:186:5-79
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:186:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:188:5-68
+	android:name
+		ADDED from E:\android_studio\project\SchoolLibrary2\JpushExample\AndroidManifest.xml:188:22-65

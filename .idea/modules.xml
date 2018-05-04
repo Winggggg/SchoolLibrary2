@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04自定义开关/04自定义开关.iml" filepath="$PROJECT_DIR$/04自定义开关/04自定义开关.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPushExample(library)/JPushExample(library).iml" filepath="$PROJECT_DIR$/JPushExample(library)/JPushExample(library).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPushExample(wing)/JPushExample(wing).iml" filepath="$PROJECT_DIR$/JPushExample(wing)/JPushExample(wing).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JpushExample/JpushExample.iml" filepath="$PROJECT_DIR$/JpushExample/JpushExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QRCode/QRCode.iml" filepath="$PROJECT_DIR$/QRCode/QRCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SchoolLibrary2.iml" filepath="$PROJECT_DIR$/SchoolLibrary2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test2/Test2.iml" filepath="$PROJECT_DIR$/Test2/Test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doger/doger.iml" filepath="$PROJECT_DIR$/doger/doger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doger2/doger2.iml" filepath="$PROJECT_DIR$/doger2/doger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiaozivideoplayer/jiaozivideoplayer.iml" filepath="$PROJECT_DIR$/jiaozivideoplayer/jiaozivideoplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpserver/okhttpserver.iml" filepath="$PROJECT_DIR$/okhttpserver/okhttpserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/player/player.iml" filepath="$PROJECT_DIR$/player/player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shareSample/shareSample.iml" filepath="$PROJECT_DIR$/shareSample/shareSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testtwo/testtwo.iml" filepath="$PROJECT_DIR$/testtwo/testtwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voicedialog/voicedialog.iml" filepath="$PROJECT_DIR$/voicedialog/voicedialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wingPlayer/wingPlayer.iml" filepath="$PROJECT_DIR$/wingPlayer/wingPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxingscanner/zxingscanner.iml" filepath="$PROJECT_DIR$/zxingscanner/zxingscanner.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include android:id="@+id/title" layout="@layout/titlebar"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.example.wing.schoollibrary.view.XListView
+            android:id="@+id/xlistView"
+            android:layout_width="match_parent"
+            android:listSelector="@android:color/transparent"
+            android:layout_height="match_parent"></com.example.wing.schoollibrary.view.XListView>
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

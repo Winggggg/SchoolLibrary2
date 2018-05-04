@@ -1,0 +1,4 @@
+#Wed Mar 28 17:04:06 GMT+08:00 2018
+base.0=E\:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

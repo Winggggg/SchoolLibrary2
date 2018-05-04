@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/MoreMessage"
+          android:clickable="true"
+          android:textSize="18dp"
+          android:textColor="@drawable/text_more_color_selector"
+          android:padding="8dp"
+          android:text="更多"
+          android:gravity="right"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+</TextView>

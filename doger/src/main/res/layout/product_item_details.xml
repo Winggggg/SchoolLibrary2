@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- listView中单个展示项的布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_productName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_saleName"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="#ff0000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_plus_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/iv_image"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_minus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+      		android:background="@drawable/goods_sub_btn" />
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#ff0000" 
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btn_plus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+   			android:background="@drawable/goods_add_btn"/>
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

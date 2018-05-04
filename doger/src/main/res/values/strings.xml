@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">萌宠汪星人</string>
+    <string name="radio1_text">首页</string>
+    <string name="message">您好！</string>
+    <string name="radio2_text">商城</string>
+    <string name="radio3_text">购物车</string>
+    <string name="radio4_text">我的</string>
+    <string name="customerNum">用户账号</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="OK">确认</string>
+    <string name="cancel">取消</string>
+    <string name="itemname">商品名称</string>
+    <string name="phonenumber">联系电话</string>
+    <string name="orderlies">看护人</string>
+    <string name="price">价格</string>
+    <string name="name">姓名</string>
+    <string name="time">时间</string>
+    <string name="type">种类</string>
+    <string name="scan">请扫描以下二维码进行支付</string>
+    <string name="dog">爱犬</string>
+    <string name="rice">主粮</string>
+    <string name="clothes">服饰</string>
+    <string name="snacks">零食</string>
+    <string name="cosmetology">美容</string>
+    <string name="daily">日用</string>
+    <string name="medical">医疗</string>
+    <string name="toy">玩具</string>
+    <string name="personal">特色服务</string>
+    <string name="area">江门</string>
+    <string name="dog1">狗狗</string>
+    <string name="newest">最新上架</string>
+    <string name="recommend">为你推荐</string>
+    <string name="selected">精选商品</string>
+    <string name="title_activity_tab_base">TabBaseActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_item_list">ItemListActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_address_list">AddressListActivity</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="title_activity_person">PersonActivity</string>
+
+</resources>

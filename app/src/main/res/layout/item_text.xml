@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:text="新东方学习库校园网IP外漫游使用说明"
+          android:id="@+id/tv_passage"
+          android:drawableLeft="@drawable/text_shape_selector"
+          android:drawablePadding="8dp"
+          android:layout_width="wrap_content"
+          android:padding="5dp"
+          android:textSize="16sp"
+          android:clickable="true"
+          android:textColor="@drawable/text_message_color_selector"
+          android:layout_height="wrap_content">
+
+</TextView>

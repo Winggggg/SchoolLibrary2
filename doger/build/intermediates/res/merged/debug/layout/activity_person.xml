@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fl_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/iv_login"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/login" />
+
+        <ImageView
+            android:id="@+id/iv_person"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_personName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fl_login"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/fl_login"
+        android:textSize="25dp"
+        android:text="点击登录" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fl_login"
+        android:orientation="vertical"
+        android:padding="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="收款账号" />
+    
+    <View android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:background="#E1E6F6"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="实名认证" />
+    
+     <View android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:background="#E1E6F6"/>
+     
+     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="收藏" />
+    
+     <View android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:background="#E1E6F6"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="通话记录" />
+    
+     <View android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:background="#E1E6F6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:text="发布管理" />
+    </LinearLayout>
+
+
+</RelativeLayout>

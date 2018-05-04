@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wing.schoollibrary.activity.UserQRCodeActivity">
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="恭喜你已成功注册账号，生成的二维码\n可作为读书证进出图书馆"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#ed4444"
+        android:textSize="18sp"
+        android:text="@string/fanhuidenglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/iv_user_qrcode"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

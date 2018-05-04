@@ -1,0 +1,3 @@
+include ':app', ':xutils', ':jiaozivideoplayer', ':vitamio', ':wingPlayer', ':banner', ':04自定义开关', ':voicedialog', ':zxingscanner', ':QRCode', ':okhttpserver', ':okhttputils', ':Test2', ':PullToRefresh', ':player', ':shareSample', ':JpushExample', ':JPushExample(wing)', ':JPushExample(library)', ':testtwo'
+include ':doger'
+include ':doger2'

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/titlebar"/>-->
+
+
+    <FrameLayout
+        android:id="@+id/fl_main_content"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rg_main_pager"
+            android:drawableTop="@drawable/rg_main_pager_selector_icon"
+            android:text="主页"
+            style="@style/rg_bottom"/>
+        <RadioButton
+            android:id="@+id/rg_search_pager"
+            android:drawableTop="@drawable/rg_search_pager_selector_icon"
+            android:text="书目检索"
+            style="@style/rg_bottom"/>
+        <RadioButton
+            android:id="@+id/rg_communicate_pager"
+            android:drawableTop="@drawable/rg_communicate_pager_selector_icon"
+            android:text="树洞交流"
+            style="@style/rg_bottom"/>
+        <RadioButton
+            android:id="@+id/rg_mylibrary_pager"
+            android:drawableTop="@drawable/rg_mylibrary_pager_selector_icon"
+            android:text="我的图书馆"
+            style="@style/rg_bottom"/>
+
+    </RadioGroup>
+</LinearLayout>

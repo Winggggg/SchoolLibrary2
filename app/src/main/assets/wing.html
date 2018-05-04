@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,user-scalable=no" name="viewport">
+    <title>智慧北京</title>
+    <script type="text/javascript"  >
+
+    //document.getElementById("title").innerHTML="gsdfdsaf";
+
+
+
+	 function setText(arg){
+		document.getElementById("title").innerHTML=arg;
+	 }
+
+	 var a,b,c,d,e;
+
+	 function changeTitle(title,time,publisher,content,imageurl) {
+	    a=title;
+	    b=time;
+	    c=publisher;
+	    d=content;
+	    e=imageurl;
+        document.getElementById("title").innerHTML= title;
+        document.getElementById("time").innerHTML= time;
+        document.getElementById("publisher").innerHTML= publisher;
+        document.getElementById("content").innerHTML= content;
+        document.getElementById("image").src= imageurl;
+    }
+
+
+	 function test(){
+	    alert("测试");
+	 }
+
+</script>
+</head>
+<body  onload="javascript:changeTitle(a,b,c,d,e)">
+
+    <div>
+        <h1 id="title" style="text-align: center;">【枪】最新国产CQ步枪</h1>
+        <h2 style="text-align: center;"><span id="time">2014-01-20 15:21</span> <span id="publisher">发布者：环球网</span></h2>
+    </div>
+    <div id="content">
+
+    </div>
+</body>
+</html>

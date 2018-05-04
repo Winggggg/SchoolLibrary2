@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:background="#C5EBFB"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫一扫"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/ll_top"
+        android:id="@+id/ll_name"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="题名："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_name"
+        android:id="@+id/diliver1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+    <LinearLayout
+        android:layout_below="@id/diliver1"
+        android:id="@+id/ll_author"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="责任者："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_author"
+        android:id="@+id/diliver2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+
+    <LinearLayout
+        android:layout_below="@id/diliver2"
+        android:id="@+id/ll_publisher"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="出版社："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_publisher"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_publisher"
+        android:id="@+id/diliver3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+
+    <LinearLayout
+        android:layout_below="@id/diliver3"
+        android:id="@+id/ll_type"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="图书类型："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_type"
+        android:id="@+id/diliver4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+    <LinearLayout
+        android:layout_below="@id/diliver4"
+        android:id="@+id/ll_ar"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="索取号："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_ar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_ar"
+        android:id="@+id/diliver5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+    <LinearLayout
+        android:layout_below="@id/diliver5"
+        android:id="@+id/ll_place"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="馆藏地点："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_place"
+        android:id="@+id/diliver6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+    <LinearLayout
+        android:layout_below="@id/diliver6"
+        android:id="@+id/ll_isbn"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="ISBN："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_isbn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_isbn"
+        android:id="@+id/diliver7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+    <LinearLayout
+        android:layout_below="@id/diliver7"
+        android:id="@+id/ll_issn"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:text="ISSN："
+            android:textColor="#464646"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_search_issn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/ll_issn"
+        android:id="@+id/diliver8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeee"/>
+
+    <LinearLayout
+        android:layout_below="@id/diliver8"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/btn_search"
+           android:text="检索"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_clear"
+            android:text="清空"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/mprogressbar"
+        android:visibility="gone"
+        android:id="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,378 @@
+[
+    {
+        "outputFile": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 90,
+                    "endOffset": 141
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 90,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 146,
+                    "endColumn": 51,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 51,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 67,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 67,
+                        "endOffset": 698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 82,
+                    "endOffset": 344
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 915,
+                        "endColumn": 82,
+                        "endOffset": 993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 349,
+                    "endColumn": 67,
+                    "endOffset": 412
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 567,
+                        "endColumn": 67,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 417,
+                    "endColumn": 63,
+                    "endOffset": 476
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 703,
+                        "endColumn": 63,
+                        "endOffset": 762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 481,
+                    "endColumn": 61,
+                    "endOffset": 538
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 767,
+                        "endColumn": 61,
+                        "endOffset": 824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 543,
+                    "endColumn": 53,
+                    "endOffset": 592
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 597,
+                    "endColumn": 75,
+                    "endOffset": 668
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 998,
+                        "endColumn": 75,
+                        "endOffset": 1069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 673,
+                    "endColumn": 85,
+                    "endOffset": 754
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 829,
+                        "endColumn": 85,
+                        "endOffset": 910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 759,
+                    "endColumn": 139,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 139,
+                        "endOffset": 500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endColumn": 53,
+                    "endOffset": 948
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1074,
+                        "endColumn": 53,
+                        "endOffset": 1123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 953,
+                    "endColumn": 61,
+                    "endOffset": 1010
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 505,
+                        "endColumn": 61,
+                        "endOffset": 562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1015,
+                    "endColumn": 112,
+                    "endOffset": 1123
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 112,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1128,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1691
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\jpush_style.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1696,
+                    "endLine": 29,
+                    "endColumn": 9,
+                    "endOffset": 1829
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 295,
+                        "endLine": 10,
+                        "endColumn": 9,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1834,
+                    "endLine": 33,
+                    "endColumn": 9,
+                    "endOffset": 1981
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 430,
+                        "endLine": 14,
+                        "endColumn": 9,
+                        "endOffset": 577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1986,
+                    "endLine": 38,
+                    "endColumn": 9,
+                    "endOffset": 2166
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 3,
+                        "startOffset": 113,
+                        "endLine": 6,
+                        "endColumn": 9,
+                        "endOffset": 293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2171,
+                    "endLine": 42,
+                    "endColumn": 9,
+                    "endOffset": 2300
+                },
+                "from": {
+                    "file": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(wing)\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 579,
+                        "endLine": 18,
+                        "endColumn": 9,
+                        "endOffset": 708
+                    }
+                }
+            }
+        ]
+    }
+]

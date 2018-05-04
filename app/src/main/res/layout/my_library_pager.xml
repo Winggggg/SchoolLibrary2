@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:background="#f00">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:background="@drawable/wuyi" />
+
+                <ImageButton
+                    android:id="@+id/ib_user_icon_avator"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/new_user_icon2" />
+
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="130dp"
+                    android:text="登录/注册"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tv_exitLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_username"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    android:text="退出登录"
+                    android:visibility="gone"
+                    android:textColor="#ed4444" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#eee" />
+
+
+            <TextView
+                android:id="@+id/tv_personal_information"
+                style="@style/TextStyle"
+                android:text="个人信息" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_modify_password"
+                style="@style/TextStyle"
+                android:text="修改密码" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_check_qrcode"
+                style="@style/TextStyle"
+                android:text="查看移动式学生证" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_current_borrow"
+                style="@style/TextStyle"
+                android:text="当前借阅情况或续借" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_return_book"
+                style="@style/TextStyle"
+                android:text="催还图书" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_new_book"
+                style="@style/TextStyle"
+                android:text="新书通报信息" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_borrow_history"
+                style="@style/TextStyle"
+                android:text="我的借书历史" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_search_history"
+                style="@style/TextStyle"
+                android:text="我的检索历史" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_user_callcenter"
+                style="@style/TextStyle"
+                android:text="客服中心" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="45dp"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/tv_setting"
+                style="@style/TextStyle"
+                android:text="设置" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\border_bg.9.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\border_bg.9.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_divider.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\jpush_ic_richpush_actionbar_divider.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_notification_icon.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\jpush_notification_icon.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\jpush_ic_richpush_actionbar_back.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stripes.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\stripes.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\top_bg.9.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\top_bg.9.png"
+    },
+    {
+        "merged": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bottom_bg.9.png",
+        "source": "E:\\android_studio\\project\\SchoolLibrary2\\JPushExample(library)\\res\\drawable-hdpi\\bottom_bg.9.png"
+    }
+]
